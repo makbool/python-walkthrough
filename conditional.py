@@ -14,8 +14,6 @@ elif a < b :
     print ("A less than B")
 else:
     print("A is equal to b")
-    
-
 
 c = 12
 
@@ -23,8 +21,6 @@ if a > c :
     print("A greater than C")
     if a > b :
         print ("A is greater than C & B")
-
-
 
 if a > c :
     print("A greater than C")

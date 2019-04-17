@@ -24,6 +24,13 @@ print(readingfile.read())
 
 readingfile.close();
 
+readingfile = open("sample.py", "r")
+
+print(readingfile.read(5))
+print(readingfile.read(5))
+
+readingfile.close();
+
 os.rename("sample.py", "demo.py")
 
 os.remove("demo.py")

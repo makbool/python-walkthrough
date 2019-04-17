@@ -15,10 +15,7 @@ fruits = ['APPLE', 'GRAPE', 'BANANA']
 for fruit in fruits:
     print (fruit)
 
-
-
 print("Hello!"*3)
 
-
 for i in range(10):
-    print(str(i)*i)
+    print(str(i) * i)
